@@ -1,0 +1,31 @@
+.form-input {
+  width: 90vw;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+.form-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+.form-input input {
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: var(--radius);
+}
+
+.form-input small {
+  color: red;
+  /* Hide error messages by default */
+  display: none;
+  margin-top: 0.125rem;
+}
+
+/* Show the error message when input is invalid and lost the focus */
+.form-input input[blurred="true"]:invalid + small {
+  display: block;
+}
+.form-input input[blurred="true"]:invalid {
+  border-color: red;
+}

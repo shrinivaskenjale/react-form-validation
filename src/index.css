@@ -1,0 +1,21 @@
+:root {
+  --radius: 4px;
+  --primary-color: palevioletred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}

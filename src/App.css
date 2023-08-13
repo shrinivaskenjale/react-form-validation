@@ -1,0 +1,32 @@
+.form-section {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: url("images/background.jpg") center/cover no-repeat fixed;
+  padding: 2rem 0;
+}
+
+.form {
+  background: white;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.form h1 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  letter-spacing: 0.25rem;
+}
+
+.form-buttons button {
+  width: 100%;
+  padding: 0.5rem;
+  border: transparent;
+  background: var(--primary-color);
+  color: white;
+  border-radius: var(--radius);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
